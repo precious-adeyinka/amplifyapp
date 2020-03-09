@@ -4,7 +4,7 @@ body,
   height: 100%;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .App {
@@ -62,9 +62,12 @@ body,
   box-shadow: 10px 5px 10px 0 rgba(0,0,0, 0.5);
   background: #f57;
 }
-
+h1 {
+  margin: 0;
+}
 .para {
   font-size: 10em;
   font-weight: 900;
   color: purple;
+  margin: 5px 0;
 }
