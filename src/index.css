@@ -1,13 +1,78 @@
 body {
+  height: 100%;
+  width: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+table {
+  border: 1px solid #ccc;
+  padding: 2em;
+  border-collapse: collapse;
+}
+th {
+  border: 1px solid #ccc;
+  width: 200px;
+  background: #fff;
+}
+td {
+  border: 1px solid #ccc;
+  width: 200px;
+  padding: 1em;
+}
+input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5em;
+}
+/* .demo {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+.num {
+  font-size: 5em;
+  text-align: center;
+  margin: 1em auto;
+  font-family: 'Emblema One', cursive;
+}
+.btn {
+  height: 30px;
+  width: 100px;
+  background: #000;
+  border: none;
+  outline: none;
+  margin-right: 1em;
+  cursor: pointer;
+  color: #fff;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 100;
+  transition: all 0.4s ease;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.80);
+}
+.btn:hover {
+  box-shadow: none;
+}
+.stepAdd {
+  background: green;
+}
+.stepSub {
+  background: red;
 }
