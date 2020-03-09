@@ -26,8 +26,8 @@ class Timer extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1>A simple React Timer App</h1>
+      <div className="container">
+        <h1>A Simple React Timer App</h1>
         <div>
           <p className="para">Timer: {this.state.seconds}</p>
         </div>
